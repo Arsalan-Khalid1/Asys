@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+}
+
+.header a{
+    
+    justify-content: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: azure;
+    cursor: pointer;
+
+}

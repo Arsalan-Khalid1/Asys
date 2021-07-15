@@ -1,0 +1,64 @@
+.mainCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 400px;
+  margin: 4px;
+  
+}
+.mainDiv {
+    
+    /* justify-content:flex-start;
+    flex-direction: row; */
+    flex-wrap: wrap;
+}
+.mainCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .content{
+    padding: 2px 16px;
+  }
+  
+  .imgDiv {
+      height: 200px
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+  }
+  @media (min-width: 40em) {
+    main {
+      width: 80%;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 607px) {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 1028px) {
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    p {
+      font-size: 0.6rem;
+    }
+  }
